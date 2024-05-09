@@ -1,1 +1,13 @@
+def sum_or_multiply(n1, n2):
+  product= n1*n2
+  sum= n1+n2
+  if product<=1000:
+    return product
+  else:
+    return sum
+
+result= sum_or_multiply(20,30)
+print("The result is ", result)
+result= sum_or_multiply(30, 40)
+print("The result is ", result)
 
